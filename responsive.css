@@ -277,13 +277,13 @@
         padding-bottom: 1.5em;
       }
       progress{
-        width: 100%;
+        width: 70%;
       }
       
       .Skills_Division{
         margin: 0;
         padding: 0;
-        width:80vh;
+        width:70%;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -455,7 +455,7 @@
       /* footer */
       
       footer {
-        width: 100vh;
+        width: 100%;
         padding:0%;
         display: flex;
         justify-content: space-around;
