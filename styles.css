@@ -88,6 +88,8 @@ nav ul li a {
   color: var(--dark-gray-color);
   font-size: 0.9em;
 }
+
+
 nav ul li a:hover {
   background-color: var(--navbar-bg-color);
   color: var(--see-green-color);
@@ -96,6 +98,10 @@ nav ul li a:hover {
 nav .menu-btn,
 nav .menu-icon {
   display: none;
+}
+
+.contactbar{
+  padding: 1rem 1.4rem;
 }
 
 /* contents */

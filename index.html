@@ -25,11 +25,11 @@
             </div>
             <div class="nav-items">
                 <ul class="v-class">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Skills">Skills</a></li>
-                    <li><a href="#my-Work">Work</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <li><a class="homebar" href="#">Home</a></li>
+                    <li><a class="aboutbar" href="#About">About</a></li>
+                    <li><a class="skillsbar" href="#Skills">Skills</a></li>
+                    <li><a class="workbar" href="#my-Work">Work</a></li>
+                    <li><a class="contactbar" href="#Contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -42,19 +42,16 @@
             <h2>Full Stack Web developer</h2>
             <p>
                 I Love building Web Applications
-                <i class="bi bi-facebook"></i>
-
             </p>
             <p>
                 I like to write optimized code
-
             </p>
             <a href="#Contact" class="portfolio-botton">Get in Touch</a>
         </div>
 
         <div class="model">
             <img class="img" alt="pic.PNG" src="arslan.jpeg">
-            <div>
+            <div class="modeldiv">
                 <a href="https://www.facebook.com/arslan.islam.311" target="_blank" class="fa fa-facebook"></a>
                 <a href="https://www.linkedin.com/in/muhammad-arslan-islam-123696211/" target="_blank"
                     class="fa fa-linkedin"></a>
@@ -403,13 +400,15 @@
         <p>I’m interested in freelance opportunities – especially ambitious or large projects. However, if you have
             other request or question, don’t hesitate to use the form.</p>
         <div class="text_box">
-            <div class="box">
-                <input type="text" id="name" placeholder="Name">
-                <input type="email" id="email" placeholder="Email">
-            </div>
-            <input type="text" id="subject" placeholder="Subject"><br />
-            <textarea id="massage" placeholder="Massage" rows="4" cols="50"></textarea>
-            <a href="#" class="send-botton">Send</a>
+            <form action="mailto:emailid@example.com" method="post" enctype="text/plain">
+                <div class="box">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <input type="text" id="subject" placeholder="Subject"><br />
+                <textarea id="massage" placeholder="Massage" rows="4" cols="50" required></textarea>
+                <input type="submit" class="send-botton"></a>
+            </form>
         </div>
 
     </section>
