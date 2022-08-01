@@ -83,6 +83,7 @@
       body {
         margin: 5%;
         margin-bottom: 0%;
+        margin-left: 10%;
       }
       #navbar{
         display: none;
@@ -467,6 +468,7 @@
       }
       
       footer p {
+        margin-left: -10%;
         color: var(--black-color);
         font-size: 0.9rem;
       }
