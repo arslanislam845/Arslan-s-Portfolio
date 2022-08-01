@@ -182,7 +182,6 @@
         color: var(--white-main-color);
         padding:0rem;
         margin: 0rem;
-        padding-left: 0%;
         text-align: center;
         margin-top: -5rem;
       }
@@ -192,7 +191,7 @@
         padding-bottom: 2rem;
       }
       .about_text h5 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.3em;
         font-weight: 300;
       }
@@ -277,16 +276,17 @@
         padding-bottom: 1.5em;
       }
       progress{
-        width: 70%;
+        width: 90%;
       }
       
       .Skills_Division{
-        margin: 0;
-        padding: 0;
-        width:70%;
+        border: 1px solid var(--dark-gray-color);
+        width:100%;
         display: flex;
         justify-content: center;
         text-align: center;
+        margin: 0;
+        padding: 0;
       }
       
     
@@ -455,7 +455,7 @@
       /* footer */
       
       footer {
-        width: 100%;
+        width: 69vh;
         padding:0%;
         display: flex;
         justify-content: space-around;
